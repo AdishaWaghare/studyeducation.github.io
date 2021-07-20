@@ -1,0 +1,286 @@
+.bgimg{
+	margin: 0;
+	padding: 0;
+
+	background:url('education2.jpg') no-repeat center/cover;
+	background-attachment:fixed;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 750px;
+	/*position: relative;
+	overflow: hidden;*/
+}
+.demo1:hover{
+
+	background-color:black;
+	text-align: center;
+	font-family: sans-serif;
+
+}
+/*nav{
+	height: 60px;
+	width:100%;
+	background-color: #3333
+	color:rgb(51,34,34);
+	position: fixed;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+
+}
+nav li{
+	display: inline;
+	float: right;
+}
+nav a{
+	display: inline-block;
+	width:140px;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 0;
+	color:#eee;
+}*/
+
+nav li:hover{ background-color: #444;
+  }
+.hearderset{
+	
+	padding-top: 250px;
+	text-align: center;
+}
+.hearderset h2{
+	font-size:49px;
+text-align: center;
+}
+.hearderset h1{
+	font-size: 82px;
+	font-weight: bold;
+}
+.ourservices{
+	padding: 100px 0px 60px;
+	height: 700px;
+
+}
+.ourservices h1{
+	font-size: 45px;
+	font-weight: bold;
+
+}
+.rowsetting{
+	margin: 80px  0px !important;
+
+}
+.imgsetting{
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+}
+.fa-shopping-cart {
+	margin-top: 20px;
+	
+}
+.fa-graduation-cap{
+	margin-top: 24px;
+	
+}
+.fa-hourglass-half{
+	margin-top: 20px;
+
+}
+.rowsetting h2{
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 30px;
+}
+.rowsetting p{
+	 padding: 10px;
+	color: #777 !important;
+}
+////////////////////////StudyMaterial
+.StudyMaterial{
+	height: 1100px;
+	width: 100px;
+	padding:100px 0px 50px;
+}
+.StudyMaterial h1{
+	font-size: 50px;
+	font-weight: bold;
+
+}
+.card{
+	margin-top: 40px;
+}
+.ourteachers{
+	height: 700px;
+	padding: 100px 0px 60px;
+	width: 100%;
+
+}
+.ourteachers h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+.teams{
+	margin-top: 80px !important;
+}
+.pagination{
+	text-align: center;
+}
+.footer{
+	background: #303036;
+	color: #d3d3d3
+	height:400px;
+	position: relative;
+}
+.footer.footer-buttom{
+	background: #343a40;
+	color:#686868;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	padding-top: 20px;
+	font-size: 30px;
+	font-weight:lighter;
+}
+footer .footer-cols{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(4,1fr);
+	padding: 2rem;
+	text-align:center;
+	font-size: 16px;
+	}
+	footer.footer-cols ul{
+	list-style-type:none;
+}
+
+
+
+	footer.footer-cols ul li:first-child{
+	font-size: 1.2rem;
+	padding-bottom: 2 rem;
+	border-bottom: #444  solid 1px;
+	margin-bottom: 1rem;
+}
+.section{
+	font-weight: bolder;
+	text-align: center;
+	width: 100px;
+	margin-top: 40px;
+	height: 700px;
+	padding: 100px 0px 60px;
+	width: 100%;
+
+}
+.study{
+	text-align: center;
+	width: 100px;
+	margin-top: 40px;
+	height: 700px;
+	padding: 100px 0px 60px;
+	width: 100%;
+}
+/*/////responsive////*/
+@media(min-width: 992px){
+
+}
+@media(min-width: 768px)and (max-width: 993px){
+.hearderset h2{
+	font-size:22px;
+text-align: center;
+}
+.hearderset h1{
+	font-size: 72px;
+	font-weight: bold;
+}
+.ourservices{
+	
+	height: 1300px;
+
+}
+.StudyMaterial{
+	height: 2300px;
+}
+.ourteachers{
+	height: 1200px;
+}
+}
+@media(min-width: 575px)and (max-width: 767px){
+	.hearderset h2{
+	font-size:22px;
+text-align: center;
+}
+.hearderset h1{
+	font-size: 72px;
+	font-weight: bold;
+}
+.ourservices{
+	
+	height: 1300px;
+
+}
+.StudyMaterial{
+	height: 2300px;
+}
+.ourteachers{
+	height: 1400px;
+}
+
+}
+@media(min-width: 468px)and (max-width: 574px){
+	.hearderset h2{
+	font-size:22px;
+text-align: center;
+}
+.hearderset h1{
+	font-size: 72px;
+	font-weight: bold;
+}
+.ourservices{
+	
+	height: 800px;
+
+}
+.StudyMaterial{
+	height: 2300px;
+}
+.ourteachers{
+	height: 1000px;
+}
+
+}
+@media(max-width: 479px){
+
+.hearderset h2{
+	font-size:22px;
+text-align: center;
+}
+.hearderset h1{
+	font-size: 42px;
+	font-weight: bold;
+}
+.ourservices{
+	
+	height: 1300px;
+
+}
+.StudyMaterial{
+	height: 2600px;
+}
+.ourteachers{
+	height: 1300px;
+}
+.alignment ul{
+	text-align: center;
+	width: 100px;
+	
+
+}
+}
+
+
+
